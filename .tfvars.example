@@ -1,0 +1,10 @@
+gcp_project_name      = ""
+gcp_project_region    = "us-central1"
+instance_machine_type = "g2-standard-8"
+instance_name         = "gcp-l4"
+instance_zone         = "us-central1-a"
+instance_gpu_type     = "nvidia-l4"
+instance_gpu_count    = 1
+tailscale_authkey     = ""
+user_name             = ""
+ssh_pubkey            = ""  
