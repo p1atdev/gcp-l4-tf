@@ -26,6 +26,8 @@ rm /lib/libnvinfer_lean.so.8
 ln /lib/libnvinfer_lean.so.8.6.1 /lib/libnvinfer_lean.so.8
 
 # install tailscale
+apt update -y
+apt-get update
 curl -fsSL https://tailscale.com/install.sh | sh
 # tailscale_authkey comes from terraform
 tailscale up --authkey ${tailscale_authkey}
